@@ -30,6 +30,7 @@ namespace JobPortal.Controllers
 
         public IActionResult HomePage()
         {
+           
             return View();
         }
 
@@ -47,6 +48,10 @@ namespace JobPortal.Controllers
         {
             return View();
         }
+
+       
+
+       
         
     }
 
